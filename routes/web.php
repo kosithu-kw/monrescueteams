@@ -11,9 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return redirect()->route('login');
-});
+Route::get('/', [
+    'uses'=>"WelcomeController@getWelcome"
+]);
+Route::get('/city/{id}/teams',[
+    'uses'=>'WelcomeController@getTeamsList',
+    'as'=>'city.teams'
+]);
 
 Auth::routes(['register'=>false]);
 
