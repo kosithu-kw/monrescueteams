@@ -30,7 +30,8 @@
     <div class="container" id="app">
         <div class="card shadow">
             <div class="card-body pt-5">
-                <h2 style="color: orangered">MON RESCUE TEAMS LIST</h2>
+                <h4 style="color: orangered"> မွန်ပြည်နယ် </h4>
+                <div style="color: orangered">  (၁၀) မြို့နယ်အတွင်းရှိ အရေးပေါ်ကယ်ဆယ်ရေးအဖွဲ့များ</div>
                 <hr>
                 <div class="row">
                     @foreach($cities as $c)

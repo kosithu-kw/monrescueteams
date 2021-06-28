@@ -30,7 +30,8 @@
     <div class="container" id="app">
         <div class="card shadow">
             <div class="card-body pt-5">
-                <h2 style="color: orangered"> <a href="/" class="mr-5"><i class="fas fa-arrow-circle-left"></i></a> {{$city->city_name}}</h2>
+                <h4 style="color: orangered"> <a href="/" class="mr-5"><i class="fas fa-arrow-circle-left"></i></a> {{$city->city_name}}  မြို့နယ်  <small>လူမှုကယ်ဆယ်ရေးအဖွဲ့များ</small></h4>
+               
                 <hr>
                 <div class="row">
                     @foreach($teams as $t)
