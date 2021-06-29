@@ -17,9 +17,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/cities',[
-    'uses'=>'ApiController@getCities'
+Route::get('/townships',[
+    'uses'=>'ApiController@getTownships'
 ]);
-Route::get('/rescue/teams',[
+Route::get('/township/{id}/rescue/teams',[
     'uses'=>'ApiController@getRescueTeams'
 ]);
