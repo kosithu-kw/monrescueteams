@@ -51,7 +51,7 @@
     <script>
         setTimeout(function(){
             window.location.replace("/townships");
-        }, 3000)
+        }, 5000)
     </script>
 </body>
 </html>
