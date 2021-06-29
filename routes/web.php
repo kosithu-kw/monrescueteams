@@ -14,6 +14,10 @@
 Route::get('/', [
     'uses'=>"WelcomeController@getWelcome"
 ]);
+Route::get('/townships',[
+    'uses'=>'WelcomeController@getTownships',
+    'as'=>'townships'
+]);
 Route::get('/city/{id}/teams',[
     'uses'=>'WelcomeController@getTeamsList',
     'as'=>'city.teams'

@@ -22,6 +22,10 @@
         }
         #app{
             font-family: uni;
+            
+        }
+        #cardBody{
+            padding: 100px 0 200px 0;
         }
     </style>
 </head>
@@ -29,35 +33,25 @@
     
     <div class="container" id="app">
         <div class="card shadow">
-            <div class="card-body pt-5">
-                <h4 style="color: orangered"> မွန်ပြည်နယ် </h4>
-                <div style="color: orangered">  (၁၀) မြို့နယ်အတွင်းရှိ အရေးပေါ်ကယ်ဆယ်ရေးအဖွဲ့များ</div>
-                <hr>
+            <div class="card-body" id="cardBody">              
+                
                 <div class="row">
-                    @foreach($cities as $c)
-                        
-                        <div class="col-6 col-md-3 mb-2">
-                            <a href="{{route('city.teams',['id'=>$c->id])}}">
-                            <div class="card shadow">
-                                <div class="card-body">
-                                    <div style="color: orangered">
-                                       <div class="text-center">
-                                            <i class="fas fa-map-marked-alt"></i>
-                                       </div>
-                                        <div class="text-center">
-                                             {{$c->city_name}}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </a>
+                    <div class="col-sm sm-offset-4 text-center">
+                        <h4 style="color: orangered"> မွန်ပြည်နယ် </h4>
+                        <div style="color: orangered">  (၁၀) မြို့နယ်အတွင်းရှိ အရေးပေါ်ကယ်ဆယ်ရေးအဖွဲ့များ</div>
+                        <div>
+                            <img class="img-fluid" src="{{URL::to("loading.gif")}}" alt="Loading...">
                         </div>
-                       
-                    @endforeach
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <script>
+        setTimeout(function(){
+            window.location.replace("/townships");
+        }, 3000)
+    </script>
 </body>
 </html>

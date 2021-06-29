@@ -9,9 +9,13 @@ use App\Rescueteam;
 class WelcomeController extends Controller
 {
     public function getWelcome(){
-        $cities=City::get();
-        return view('welcome')->with(['cities'=>$cities]);
+       
+        return view('welcome');
 
+    }
+    public function getTownships(){
+        $cities=City::get();
+        return view('townships')->with(['cities'=>$cities]);
     }
     public function getTeamsList($id){
         $teams=Rescueteam::where('city_id', $id)->get();
