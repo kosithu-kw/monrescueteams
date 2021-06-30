@@ -22,14 +22,20 @@
         }
         #app{
             font-family: uni;
+           
         }
+        #myCard{
+        height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+        height: calc(var(--vh, 1vh) * 100);
+        margin-bottom: 20px;
+       }
     </style>
 </head>
 <body>
     
-    <div class="container" id="app">
-        <div class="card shadow">
-            <div class="card-body pt-5">
+    <div class="container-fluid mt-2" id="app">
+        <div class="card shadow" id="myCard">
+            <div class="card-body text-center">
                 <h4 style="color: orangered"> မွန်ပြည်နယ် </h4>
                 <div style="color: orangered">  (၁၀) မြို့နယ်အတွင်းရှိ အရေးပေါ်ကယ်ဆယ်ရေးအဖွဲ့များ</div>
                 <hr>

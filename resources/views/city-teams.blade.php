@@ -24,13 +24,18 @@
         #app{
             font-family: uni;
         }
+        #myCard{
+        height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+        height: calc(var(--vh, 1vh) * 100);
+        margin-bottom: 20px;
+       }
     </style>
 </head>
 <body>
     
-    <div class="container" id="app">
-        <div class="card shadow">
-            <div class="card-body pt-5">
+    <div class="container-fluid" id="app">
+        <div class="card shadow" id="cardBody">
+            <div class="card-body">
                 <h4 style="color: orangered"> <a href="{{route('townships')}}" class="mr-2"><i class="fas fa-arrow-circle-left"></i></a> {{$city->city_name}}  မြို့နယ်  <small>လူမှုကယ်ဆယ်ရေးအဖွဲ့များ</small></h4>
                
                 <hr>

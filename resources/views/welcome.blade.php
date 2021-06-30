@@ -23,17 +23,23 @@
         #app{
             font-family: uni;
             
+            
         }
-        #cardBody{
-            padding: 100px 0 200px 0;
-        }
+
+       #myCard{
+        height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+        height: calc(var(--vh, 1vh) * 100);
+        margin-bottom: 20px;
+        padding-top: 100px;
+       }
+      
     </style>
 </head>
 <body>
     
-    <div class="container" id="app">
-        <div class="card shadow">
-            <div class="card-body" id="cardBody">              
+    <div class="container-fluid  mt-2" id="app">
+        <div class="card shadow" id="myCard">
+            <div class="card-body">              
                 
                 <div class="row">
                     <div class="col-sm sm-offset-4 text-center">
@@ -49,9 +55,14 @@
     </div>
 
     <script>
-        setTimeout(function(){
-            window.location.replace("/townships");
-        }, 5000)
+     
+                setTimeout(function(){
+            // window.location.replace("/townships");
+                }, 5000)
+
+               
+                  
+       
     </script>
 </body>
 </html>
