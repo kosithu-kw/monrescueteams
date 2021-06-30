@@ -57,7 +57,7 @@
     <script>
      
                 setTimeout(function(){
-            // window.location.replace("/townships");
+                    window.location.replace("/townships");
                 }, 5000)
 
                
