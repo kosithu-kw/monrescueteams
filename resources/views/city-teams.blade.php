@@ -33,8 +33,8 @@
 </head>
 <body>
     
-    <div class="container-fluid" id="app">
-        <div class="card shadow" id="cardBody">
+    <div class="container-fluid mt-2" id="app">
+        <div class="card shadow" id="myCard">
             <div class="card-body">
                 <h4 style="color: orangered"> <a href="{{route('townships')}}" class="mr-2"><i class="fas fa-arrow-circle-left"></i></a> {{$city->city_name}}  မြို့နယ်  <small>လူမှုကယ်ဆယ်ရေးအဖွဲ့များ</small></h4>
                
