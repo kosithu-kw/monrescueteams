@@ -72,7 +72,7 @@
                                             @if($t->phone_one)
                                             <tr>
                                                 <td>ဆက်သွယ်ရန်</td>
-                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_one}}"><i class="fas fa-phone"></i></a></td>
+                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_one}}">ဖုန်းခေါ်မည်</a></td>
 
                                             </tr>
                                             @endif
