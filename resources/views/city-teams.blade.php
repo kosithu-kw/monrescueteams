@@ -25,8 +25,8 @@
             font-family: uni;
         }
         #myCard{
-        height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-        height: calc(var(--vh, 1vh) * 100);
+        min-height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+        min-height: calc(var(--vh, 1vh) * 100);
         margin-bottom: 20px;
        }
     </style>
@@ -71,56 +71,56 @@
                                         <table class="table table-borderless">
                                             @if($t->phone_one)
                                             <tr>
-                                                <td>{{$t->phone_one}}</td>
+                                                <td>ဆက်သွယ်ရန်</td>
                                                 <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_one}}"><i class="fas fa-phone"></i></a></td>
 
                                             </tr>
                                             @endif
                                             @if($t->phone_two)
                                             <tr>
-                                                <td>{{$t->phone_two}}</td>
+                                                <td>ဆက်သွယ်ရန်</td>
                                                 <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_two}}"><i class="fas fa-phone"></i></a></td>
 
                                             </tr>
                                             @endif
                                             @if($t->phone_three)
                                             <tr>
-                                                <td>{{$t->phone_three}}</td>
+                                                <td>ဆက်သွယ်ရန်</td>
                                                 <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_three}}"><i class="fas fa-phone"></i></a></td>
 
                                             </tr>
                                             @endif
                                             @if($t->phone_four)
                                             <tr>
-                                                <td>{{$t->phone_four}}</td>
+                                                <td>ဆက်သွယ်ရန်</td>
                                                 <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_four}}"><i class="fas fa-phone"></i></a></td>
 
                                             </tr>
                                             @endif
                                             @if($t->phone_five)
                                             <tr>
-                                                <td>{{$t->phone_five}}</td>
+                                                <td>ဆက်သွယ်ရန်</td>
                                                 <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_five}}"><i class="fas fa-phone"></i></a></td>
 
                                             </tr>
                                             @endif
                                             @if($t->phone_six)
                                             <tr>
-                                                <td>{{$t->phone_six}}</td>
+                                                <td>ဆက်သွယ်ရန်</td>
                                                 <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_six}}"><i class="fas fa-phone"></i></a></td>
 
                                             </tr>
                                             @endif
                                             @if($t->phone_seven)
                                             <tr>
-                                                <td>{{$t->phone_seven}}</td>
+                                                <td>ဆက်သွယ်ရန်</td>
                                                 <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_seven}}"><i class="fas fa-phone"></i></a></td>
 
                                             </tr>
                                             @endif
                                             @if($t->phone_eight)
                                             <tr>
-                                                <td>{{$t->phone_eight}}</td>
+                                                <td>ဆက်သွယ်ရန်</td>
                                                 <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_eight}}"><i class="fas fa-phone"></i></a></td>
 
                                             </tr>
