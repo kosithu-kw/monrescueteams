@@ -79,49 +79,49 @@
                                             @if($t->phone_two)
                                             <tr>
                                                 <td>ဆက်သွယ်ရန်</td>
-                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_two}}"><i class="fas fa-phone"></i></a></td>
+                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_two}}">ဖုန်းခေါ်မည်</a></td>
 
                                             </tr>
                                             @endif
                                             @if($t->phone_three)
                                             <tr>
                                                 <td>ဆက်သွယ်ရန်</td>
-                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_three}}"><i class="fas fa-phone"></i></a></td>
+                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_three}}">ဖုန်းခေါ်မည်</a></td>
 
                                             </tr>
                                             @endif
                                             @if($t->phone_four)
                                             <tr>
                                                 <td>ဆက်သွယ်ရန်</td>
-                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_four}}"><i class="fas fa-phone"></i></a></td>
+                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_four}}">ဖုန်းခေါ်မည်</a></td>
 
                                             </tr>
                                             @endif
                                             @if($t->phone_five)
                                             <tr>
                                                 <td>ဆက်သွယ်ရန်</td>
-                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_five}}"><i class="fas fa-phone"></i></a></td>
+                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_five}}">ဖုန်းခေါ်မည်</a></td>
 
                                             </tr>
                                             @endif
                                             @if($t->phone_six)
                                             <tr>
                                                 <td>ဆက်သွယ်ရန်</td>
-                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_six}}"><i class="fas fa-phone"></i></a></td>
+                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_six}}">ဖုန်းခေါ်မည်</i></a></td>
 
                                             </tr>
                                             @endif
                                             @if($t->phone_seven)
                                             <tr>
                                                 <td>ဆက်သွယ်ရန်</td>
-                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_seven}}"><i class="fas fa-phone"></i></a></td>
+                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_seven}}">ဖုန်းခေါ်မည်</i></a></td>
 
                                             </tr>
                                             @endif
                                             @if($t->phone_eight)
                                             <tr>
                                                 <td>ဆက်သွယ်ရန်</td>
-                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_eight}}"><i class="fas fa-phone"></i></a></td>
+                                                <td><a class="btn btn-outline-info btn-sm" href="tel:{{$t->phone_eight}}">ဖုန်းခေါ်မည်</a></td>
 
                                             </tr>
                                             @endif
